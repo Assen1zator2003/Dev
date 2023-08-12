@@ -1,5 +1,11 @@
 .text-h{
-  text-align: center;
+  font-family: "Bely Display W00 Regular";
   font-weight: 400;
   font-size: 48px;
+  text-align: center;
+  margin-left: 273px;
+  margin-right: 272px;
+}
+.text-main{
+  font-family: "Proxima Nova";
 }
