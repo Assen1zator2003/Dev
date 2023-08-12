@@ -1,11 +1,42 @@
-.text-h{
+.body{
+  background-color: #F9F9F9;
+}
+.title{
   font-family: "Bely Display W00 Regular";
   font-weight: 400;
   font-size: 48px;
   text-align: center;
   margin-left: 273px;
   margin-right: 272px;
+  margin-bottom: 24px;
+  color: var(--black, #303031);
 }
-.text-main{
+.text-des{
+  display: block;
   font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin: 24px 272px 28px 273px;
+  line-height: 26px;
+
+color: var(--black, #303031);
+letter-spacing: -2%;
+}
+
+.text-1{
+  width: 427px;
+  background-color: #fb0303;
+  border: 16px;
+  height: 240px;
+  margin: 48px 24px 156px 56px;
+
+}
+.t-1{
+  font-family: "Nova";
+  padding: 24px 24px 16px 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+
 }

@@ -1,4 +1,5 @@
 @import url("./normalize.css");
+@import url("vars.css");
 @import url("./global.css");
 @import url("f.css");
 
