@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+  max-width: 645px;
 }
 
 .feature__info-icon {
@@ -17,6 +18,7 @@
 .feature__info-title {
   color: var(--black, #303031);
   font-family: "Bely Display W00 Regular";
+  font-weight: 400;
   font-size: 48px;
   line-height: 64px; /* 133.333% */
 }
@@ -29,4 +31,128 @@
   letter-spacing: -0.36px;
 }
 
+.widget-members {
+  padding: 32px 202px 40px 40px;
+  border-radius: 16px;
+  border: 4px solid var(--black, #303031);
+  background: var(--white, #FFF);
+  box-shadow: 16px 16px 0 0 var(--green, #71A894);
+}
 
+.widget-members__title {
+  color: var(--black, #303031);
+  font-family: "Proxima Nova";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  margin: 0 0 28px;
+}
+
+.widget-members__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+}
+
+.avatar__img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.widget-members__list-item {
+  display: flex;
+  column-gap: 12px;
+}
+
+.widget-members__list-item-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.widget-members__list-item-name {
+  color: var(--black, #303031);
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: -0.48px;
+}
+
+.widget-members__list-item-shares {
+  color: var(--gray, #66645E);
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+}
+
+.feature {
+  display: flex;
+  column-gap: 120px;
+}
+
+.widget-proposal {
+  border-radius: 16px;
+  border: 4px solid var(--black, #303031);
+  background: var(--white, #FFF);
+  padding: 36px 40px 32px;
+}
+
+.widget-proposal__head {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.widget-proposal__title {
+  color: var(--black, #303031);
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.widget-proposal__subtitle {
+  color: var(--gray, #66645E);
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.widget-proposal__description {
+  color: var(--black, #303031);
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+  margin-bottom: 24px;
+}
+
+.widget-proposal__table-column-name {
+  color: var(--gray, #66645E);
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.widget-proposal__table-column-value {
+  color: var(--black, #303031);
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.48px;
+}
